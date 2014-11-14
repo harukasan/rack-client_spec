@@ -20,7 +20,7 @@ module Rack
       begin
         do_test(env, response)
       rescue => e
-        p e
+        p e # TODO error inspection
       end
       return response
     end
@@ -30,7 +30,6 @@ module Rack
       matched = @tracer.trace(env)
       if matched
         match_function = @tracer.match
-
         result = @test_case.run_sequence(match_function, @sequence)
         @tracer.reset(match_function)
       end
@@ -44,6 +43,5 @@ module Rack
         end
       end
     end
-
   end
 end
