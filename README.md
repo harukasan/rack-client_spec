@@ -25,7 +25,7 @@ And then execute:
 
 ## Usage
 
-Write your client spec like below (this code is included in [lib/lobster_spec.rb](https://github.com/haruaksan/rack-client_spec/blob/master/lib/lobster_spec.rb)):
+Write your client spec like below (this code is included in [lib/lobster_spec.rb](https://github.com/harukasan/rack-client_spec/blob/master/lib/lobster_spec.rb)):
 
 ```lobster_spec.rb
 require 'rack/client_spec'
