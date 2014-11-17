@@ -6,10 +6,10 @@ Rack::ClientSpec can test your client.
 
 Current implementation is "it just works" for prototyping, not enough for release.
 
-- [] request flow
-- [] run multiple test methods
-- [] non-existence test
-- [] bug fix
+- request flow
+- run multiple test methods
+- non-existence test
+- bug fix
 
 ## Installation
 
